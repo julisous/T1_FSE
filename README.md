@@ -170,7 +170,9 @@ pip install -r requirements.txt
 Para executar o servidor, execute no terminal:
 
 ```bash
-python server/server.py
+cd Rasp_julia
+cd server
+python3 server.py
 ```
 
 ### 🛠️  7.4 Cliente
@@ -178,7 +180,9 @@ python server/server.py
 Para executar os clientes, execute no terminal:
 
 ```bash
-python client/client.py
+cd Rasp_julia
+cd client
+python3 client.py
 ```
 
 ### 🛠️  7.5  Comandos
@@ -216,4 +220,7 @@ Há um compilado de exemplos de acesso à GPIO em várias linguages de programa�
 - Exemplo de uso do DHT22 em C - WiringPi (https://github.com/nebulx29/dht22)
 
 
-
+### Link do Enunciado:
+https://gitlab.com/fse_fga/trabalhos-2022_2/trabalho-1-2022-2
+### Link apresentação: 
+https://gitlab.com/fse_fga/trabalhos-2022_2/trabalho-1-2022-2
