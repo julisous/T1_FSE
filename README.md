@@ -170,7 +170,7 @@ pip install -r requirements.txt
 Para executar o servidor, execute no terminal:
 
 ```bash
-cd Rasp_julia
+cd src
 cd server
 python3 server.py
 ```
@@ -180,7 +180,7 @@ python3 server.py
 Para executar os clientes, execute no terminal:
 
 ```bash
-cd Rasp_julia
+cd src
 cd client
 python3 client.py
 ```
