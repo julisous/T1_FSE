@@ -1,12 +1,10 @@
 import curses
-import json
 import socket
-import threading
 import time
 from curses import wrapper
 
 import globals
-from models import CentralServer
+
 from utils import load_config
 
 
@@ -38,8 +36,7 @@ def init(stdscr: curses.window) -> None:
     server.bind(
         (server_config.get("server_ip"), server_config.get("server_port"))
     )
-    central = CentralServer(server)
-    central.run()
+    
 
     k = 0
     while k != ord("q"):
