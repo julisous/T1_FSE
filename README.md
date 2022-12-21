@@ -187,8 +187,8 @@ python3 client.py
 
 ### 🛠️  7.5  Comandos
 
-:heavy_check_mark: `Para executar um comando para todas as salas, digite: comando + enter.`
-:heavy_check_mark:`Para executar o comando para uma sala em particular, digite:   número da sala + número identificador do comando , separados por um espaço.  `
+### :heavy_check_mark: `Para executar um comando para todas as salas, digite: comando + enter.`
+### :heavy_check_mark:`Para executar o comando para uma sala em particular, digite:   número da sala + número identificador do comando , separados por um espaço.  `
 
 
 ## 8 Referências
@@ -223,4 +223,4 @@ Há um compilado de exemplos de acesso à GPIO em várias linguages de programa�
 ### Link do Enunciado:
 https://gitlab.com/fse_fga/trabalhos-2022_2/trabalho-1-2022-2
 ### Link apresentação: 
-https://gitlab.com/fse_fga/trabalhos-2022_2/trabalho-1-2022-2
+https://www.youtube.com/@juliafarias3231/videos
