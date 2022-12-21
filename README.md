@@ -141,7 +141,53 @@ A avaliação será realizada seguindo os seguintes critérios:
 |**Qualidade do Código / Execução** |   Utilização de boas práticas como o uso de bons nomes, modularização e organização em geral, bom desempenho da aplicação sem muito uso da CPU. |  1,5 |
 |**Pontuação Extra** |   Qualidade e usabilidade acima da média. |   0,5   |
 
-## 7. Referências
+
+## 7. Configuração
+
+### 🛠️  7.1 Requisitos para rodar o projeto
+ :heavy_check_mark: `Python 3.9`
+
+### 🛠️  7.2 Como rodar o projeto
+ Clonar o repositório:
+
+```bash
+git clone https://github.com/julisous/T1_FSE
+```
+
+Entrar na pasta do projeto:
+
+```bash
+cd T1_FSE
+```
+
+Instalar dependencias
+
+```bash
+pip install -r requirements.txt
+```
+### 7.3 Servidor
+
+Para executar o servidor, execute no terminal:
+
+```bash
+python server/server.py
+```
+
+### 7.4 Cliente
+
+Para executar os clientes, execute no terminal:
+
+```bash
+python client/client.py
+```
+
+## 7.5  Comandos
+
+Para executar um comando para todas as salas, digite: comando + enter.
+Para executar o comando para uma sala em particular, digite:   número da sala + número identificador do comando , separados por um espaço.  
+
+
+## 8 Referências
 
 ### Bibliotecas em Python - GPIO
 
@@ -171,46 +217,3 @@ Há um compilado de exemplos de acesso à GPIO em várias linguages de programa�
 
 
 
-## 2. Configuração
-
-*OBS:** È necessário utilizar python 3.9 ou superior
-
-Primeira coisa a se fazer é clonar o repositório:
-
-```bash
-git clone https://github.com/julisous/T1_FSE
-```
-
-Entrar na pasta do projeto:
-
-```bash
-cd T1_FSE
-```
-
-Instalar dependencias
-
-```bash
-pip install -r requirements.txt
-```
-
-## 2. Como executar
-
-### 2.1. Servidor
-
-Para executar o servidor, basta executar o comando abaixo:
-
-```bash
-python server/server.py
-```
-
-### 2.2. Clientes
-
-Para executar os clientes, basta executar o comando abaixo:
-
-```bash
-python client/client.py
-```
-
-## 3. Comandos
-
-Na tela do servidor há instruções de como utilizar o programa. Para executar um comando para todas as salas, basta digitar o comando e apertar enter. Para executar o comando para uma sala específica, basta digitar o  número da sala e o número identificador do comando separados por um espaço. Por exemplo, para acionar a lâmpada 1 da sala 1, basta digitar `1 1`. 
