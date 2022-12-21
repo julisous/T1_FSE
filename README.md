@@ -165,7 +165,7 @@ Instalar dependencias
 ```bash
 pip install -r requirements.txt
 ```
-### 7.3 Servidor
+### 🛠️  7.3 Servidor
 
 Para executar o servidor, execute no terminal:
 
@@ -173,7 +173,7 @@ Para executar o servidor, execute no terminal:
 python server/server.py
 ```
 
-### 7.4 Cliente
+### 🛠️  7.4 Cliente
 
 Para executar os clientes, execute no terminal:
 
@@ -181,10 +181,10 @@ Para executar os clientes, execute no terminal:
 python client/client.py
 ```
 
-## 7.5  Comandos
+### 🛠️  7.5  Comandos
 
-Para executar um comando para todas as salas, digite: comando + enter.
-Para executar o comando para uma sala em particular, digite:   número da sala + número identificador do comando , separados por um espaço.  
+:heavy_check_mark: `Para executar um comando para todas as salas, digite: comando + enter.`
+:heavy_check_mark:`Para executar o comando para uma sala em particular, digite:   número da sala + número identificador do comando , separados por um espaço.  `
 
 
 ## 8 Referências
